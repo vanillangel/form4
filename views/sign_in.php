@@ -24,8 +24,4 @@ echo '<!DOCTYPE html>
 <button script="index.php">Enter</button>
 	</form>
 </body>
-</html>'
-
-
-
-?>
+</html>
