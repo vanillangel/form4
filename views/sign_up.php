@@ -18,7 +18,7 @@ echo '<!DOCTYPE html>
 </head>
 <body>
 	<form method="POST" action="/controllers/sign_up.php">
-		<h4 align="center">Sign Up/h4>
+		<h4 align="center">Sign Up</h4>
 		<input type="text" placeholder="username" name="si_username"><br>
 		<input type="text" placeholder="email address" name="si_eaddress"><br>
 <input type="password" placeholder="password" name="si_password"><br>
