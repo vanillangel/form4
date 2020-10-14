@@ -17,10 +17,10 @@ echo '<!DOCTYPE html>
 	<title>Document</title>
 </head>
 <body>
-	<form method="POST">
+	<form method="POST" action="/controllers/sign_in.php">
 		<h4 align="center">Sign In</h4>
-		<input type="text" placeholder="username" name=""><br>
-<input type="password" placeholder="password" name=""><br>
+		<input type="text" placeholder="username" name="si_username"><br>
+<input type="password" placeholder="password" name="si_password"><br>
 <button script="index.php">Enter</button>
 	</form>
 </body>
