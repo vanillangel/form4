@@ -34,14 +34,12 @@ $link = mysqli_connect($host, $user, $password, $database)
 // выполняем операции с базой данных
  $query ="SELECT * FROM phones";
 $result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link)); 
-if($result)
+if($link)
 {
     echo "Выполнение запроса прошло успешно";
 } 
-if (!$link) {
-    echo 'Не могу соединиться с БД. Код ошибки: ' . mysqli_connect_errno() . ', ошибка: ' . mysqli_connect_error();
-    exit;
-  }
+echo "hello world"
+
 // закрываем подключение
 mysqli_close($link);
 ?>
