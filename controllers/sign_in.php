@@ -1,4 +1,4 @@
-<? php
+<?php
 $si_un=$_POST['si_username'];
 $si_pasw=$_POST['si_password'];
 $stroke='Пользователь: ',$si_un,'Пароль: ',$si_psw;
