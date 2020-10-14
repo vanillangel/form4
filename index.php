@@ -38,7 +38,7 @@ if($link)
 {
     echo "Выполнение запроса прошло успешно";
 } 
-echo "hello world"
+
 
 // закрываем подключение
 mysqli_close($link);
