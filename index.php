@@ -37,7 +37,11 @@ $result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($lin
 if($result)
 {
     echo "Выполнение запроса прошло успешно";
-}    
+} 
+if (!$link) {
+    echo 'Не могу соединиться с БД. Код ошибки: ' . mysqli_connect_errno() . ', ошибка: ' . mysqli_connect_error();
+    exit;
+  }
 // закрываем подключение
 mysqli_close($link);
 ?>
