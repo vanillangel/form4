@@ -10,6 +10,6 @@ if (empty($si_un)) {
 }
 if (empty($si_pasw)) {
 	echo 'Пароль не введен';
-	echo '<a href="#" OnClick="history.back();">Назад</a>';
+	echo '<br><a href="#" OnClick="history.back();">Назад</a>';
 }
 ?>
