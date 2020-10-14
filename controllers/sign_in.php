@@ -6,10 +6,10 @@ echo 'Пользователь: ',$si_un,'<br>Пароль: ',$si_pasw;
 
 if (empty($si_un)) {
 	echo 'Имя пользователя не введено';
-	echo '<a href="#" OnClick="history.back();">Назад</a>';
+	header('Refresh: 5; url=http://localhost/views/sign_in.php');
 }
 if (empty($si_pasw)) {
 	echo 'Пароль не введен';
-	echo '<br><a href="#" OnClick="history.back();">Назад</a>';
+	header('Refresh: 5; url=http://localhost/views/sign_in.php');
 }
 ?>
