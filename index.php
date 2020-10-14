@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+/*<!DOCTYPE html>
 <html lang="en">
 <head>
 	<style type="text/css">
@@ -22,4 +22,17 @@ form h4 a:hover{ color:darkred; }
 	<h4 align="center"><a href="views/sign_up.php">Sign Up</a></h4>
 </form>
 </body>
-</html>
+</html>*/
+
+<?php
+require_once 'connection.php'; // подключаем скрипт
+ 
+// подключаемся к серверу
+$link = mysqli_connect($host, $user, $password, $database) 
+    or die("Ошибка " . mysqli_error($link));
+ 
+// выполняем операции с базой данных
+     
+// закрываем подключение
+mysqli_close($link);
+?>
