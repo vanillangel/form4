@@ -6,6 +6,7 @@
 	<title>Form</title>
 </head>
 <body>
-	<a href="sign_in.php">Регистрация</a>
+	<a href="views/sign_in.php">Вход</a>
+	<a href="views/sign_up.php">Регистрация</a>
 </body>
 </html>
